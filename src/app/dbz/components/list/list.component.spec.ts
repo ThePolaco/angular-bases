@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ListComponent } from './list.component';
 
 describe('ListComponent', () => {
@@ -8,7 +8,7 @@ describe('ListComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ListComponent]
+      declarations: [ListComponent,BrowserAnimationsModule]
     });
     fixture = TestBed.createComponent(ListComponent);
     component = fixture.componentInstance;
